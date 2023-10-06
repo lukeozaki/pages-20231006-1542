@@ -16,7 +16,7 @@ import About from "src/components/entity/About";
 import Banner from "src/components/entity/Banner";
 import Core from "src/components/entity/Core";
 import Events from "src/components/entity/Events";
-import FAQs from "src/components/entity/FAQs";
+// import FAQs from "src/components/entity/FAQs";
 import Gallery from "src/components/entity/Gallery";
 import Hero from "src/components/entity/Hero";
 import Insights from "src/components/entity/Insights";
@@ -240,7 +240,7 @@ const EntityLayout = ({ data }: EntityLayoutProps) => {
     c_aboutSection: about,
     c_gallerySection: gallery,
     c_teamSection: team,
-    c_faqSection: faq,
+    // c_faqSection: faq,
     c_nearbySection: nearby,
     c_eventsSection: events,
     c_insightsSection: insights,
@@ -254,7 +254,7 @@ const EntityLayout = ({ data }: EntityLayoutProps) => {
   const showAbout = about?.title && (about.description || description);
   const showGallery = gallery?.images || photoGallery;
   const showTeam = team?.title && team?.team;
-  const showFAQ = faq?.title && faq?.faqs;
+  // const showFAQ = faq?.title && faq?.faqs;
   const showEvents = events?.title && events.events;
   const showInsights = insights?.title && insights?.insights;
 
@@ -342,11 +342,11 @@ const EntityLayout = ({ data }: EntityLayoutProps) => {
           <Team title={team.title} team={team.team} initialSize={3} />
         </ErrorBoundaryWithAnalytics>
       )}
-      {showFAQ && (
+      {/* {showFAQ && (
         <ErrorBoundaryWithAnalytics name="faqs">
           <FAQs title={faq.title} faqs={faq.faqs} />
         </ErrorBoundaryWithAnalytics>
-      )}
+      )} */}
       <LazyLoadWrapper>
         <ErrorBoundaryWithAnalytics name="reviews">
           <Reviews title={reviews?.title} name={name} />
