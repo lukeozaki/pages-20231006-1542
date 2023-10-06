@@ -124,7 +124,7 @@ export const configBuilder: (
       // Product Fields
       "c_featuredProductsSection.title",
       "c_featuredProductsSection.products.name",
-      "c_featuredProductsSection.products.richTextDescription",
+      "c_featuredProductsSection.products.richTextDescriptionV2",
       "c_featuredProductsSection.products.primaryPhoto",
       "c_featuredProductsSection.products.c_primaryCTA",
       // Promo Fields
