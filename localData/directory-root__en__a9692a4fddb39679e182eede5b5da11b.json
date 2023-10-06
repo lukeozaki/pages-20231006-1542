@@ -85,7 +85,7 @@
 				"id": "ce_site",
 				"uid": 132489
 			},
-			"locale": "en"
+			"locale": "ja"
 		},
 		"name": "Site Entity",
 		"uid": 64216926
@@ -134,13 +134,13 @@
 	],
 	"id": "defaultDirectory",
 	"key": "0:root:knowledgeGraph:64216970:en",
-	"locale": "en",
+	"locale": "ja",
 	"meta": {
 		"entityType": {
 			"id": "ce_root",
 			"uid": 132491
 		},
-		"locale": "en"
+		"locale": "ja"
 	},
 	"name": "All Locations",
 	"siteDomain": "",

@@ -85,7 +85,7 @@
 				"id": "ce_site",
 				"uid": 132489
 			},
-			"locale": "en"
+			"locale": "ja"
 		},
 		"name": "Site Entity",
 		"uid": 64216926
@@ -96,13 +96,13 @@
 	"c_searchTitle": "Find a Location",
 	"id": "search-page",
 	"key": "0:search:knowledgeGraph:64216930:en",
-	"locale": "en",
+	"locale": "ja",
 	"meta": {
 		"entityType": {
 			"id": "ce_searchPage",
 			"uid": 132488
 		},
-		"locale": "en"
+		"locale": "ja"
 	},
 	"name": "Search Page Entity",
 	"siteDomain": "",

@@ -85,7 +85,7 @@
 				"id": "ce_site",
 				"uid": 132489
 			},
-			"locale": "en"
+			"locale": "ja"
 		},
 		"name": "Site Entity",
 		"uid": 64216926
@@ -342,7 +342,7 @@
 	},
 	"id": "test-location",
 	"key": "0:index:knowledgeGraph:64216931:en",
-	"locale": "en",
+	"locale": "ja",
 	"logo": {
 		"image": {
 			"height": 100,
@@ -356,7 +356,7 @@
 			"id": "location",
 			"uid": 0
 		},
-		"locale": "en"
+		"locale": "ja"
 	},
 	"name": "Test Location",
 	"ref_listings": [],

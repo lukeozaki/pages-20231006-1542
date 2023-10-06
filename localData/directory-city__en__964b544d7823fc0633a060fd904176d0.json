@@ -85,7 +85,7 @@
 				"id": "ce_site",
 				"uid": 132489
 			},
-			"locale": "en"
+			"locale": "ja"
 		},
 		"name": "Site Entity",
 		"uid": 64216926
@@ -316,13 +316,13 @@
 	],
 	"id": "defaultDirectory_ny_new_york",
 	"key": "0:city:knowledgeGraph:64216972:en",
-	"locale": "en",
+	"locale": "ja",
 	"meta": {
 		"entityType": {
 			"id": "ce_city",
 			"uid": 132487
 		},
-		"locale": "en"
+		"locale": "ja"
 	},
 	"name": "New York",
 	"siteDomain": "",

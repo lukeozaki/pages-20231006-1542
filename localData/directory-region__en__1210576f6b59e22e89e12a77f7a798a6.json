@@ -85,7 +85,7 @@
 				"id": "ce_site",
 				"uid": 132489
 			},
-			"locale": "en"
+			"locale": "ja"
 		},
 		"name": "Site Entity",
 		"uid": 64216926
@@ -114,13 +114,13 @@
 	],
 	"id": "defaultDirectory_va",
 	"key": "0:region:knowledgeGraph:65703164:en",
-	"locale": "en",
+	"locale": "ja",
 	"meta": {
 		"entityType": {
 			"id": "ce_region",
 			"uid": 132490
 		},
-		"locale": "en"
+		"locale": "ja"
 	},
 	"name": "VA",
 	"siteDomain": "",

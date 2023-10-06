@@ -84,16 +84,16 @@
         "id": "ce_site",
         "uid": 132489
       },
-      "locale": "en"
+      "locale": "ja"
     },
     "name": "Site Entity",
     "uid": 64216926
   },
   "businessId": 3861963,
   "key": "0:robots:knowledgeGraph:0:en",
-  "locale": "en",
+  "locale": "ja",
   "meta": {
-    "locale": "en"
+    "locale": "ja"
   },
   "siteDomain": "",
   "siteId": 0,

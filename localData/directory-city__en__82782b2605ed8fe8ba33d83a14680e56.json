@@ -85,7 +85,7 @@
 				"id": "ce_site",
 				"uid": 132489
 			},
-			"locale": "en"
+			"locale": "ja"
 		},
 		"name": "Site Entity",
 		"uid": 64216926
@@ -195,13 +195,13 @@
 	],
 	"id": "defaultDirectory_va_arlington",
 	"key": "0:city:knowledgeGraph:65703165:en",
-	"locale": "en",
+	"locale": "ja",
 	"meta": {
 		"entityType": {
 			"id": "ce_city",
 			"uid": 132487
 		},
-		"locale": "en"
+		"locale": "ja"
 	},
 	"name": "Arlington",
 	"siteDomain": "",

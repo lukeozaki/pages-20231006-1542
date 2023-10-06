@@ -1,4 +1,4 @@
-export const locales = ["en", "es"];
+export const locales = ["ja", "es"];
 
 const config = {
   // Global Parameters
@@ -10,7 +10,7 @@ const config = {
   userID: "",
   userSecret: "",
   projectID: "", // Found in the Smartling URL: https://dashboard.smartling.com/app/projects/[PROJECT_ID]
-  defaultLocale: "en",
+  defaultLocale: "ja",
   smartlingLocaleToYextLocaleMapping: {
     // Mapping of Smartling locale code to Yext locale codes. Example:
     // "zh-CN": ["zh_Hans"],

@@ -91,7 +91,7 @@ async function pull(api) {
 async function push(api) {
   // Read `config.defaultLocale` translations (fallback to 'en' if this field is empty)
   let defaultSource = "{}";
-  let defaultLocale = i18nConfig.defaultLocale || "en";
+  let defaultLocale = i18nConfig.defaultLocale || "ja";
   try {
     defaultSource = fs.readFileSync(
       relURL(`../locales/${defaultLocale}/translation.json`),
@@ -113,7 +113,7 @@ async function push(api) {
   const options = {
     compatibilityJSON: "v3",
   };
-  i18nextToPo("en", JSON.stringify(source), options).then(async (output) => {
+  i18nextToPo("ja", JSON.stringify(source), options).then(async (output) => {
     const outFilepath = relURL("./native.po");
     fs.writeFileSync(outFilepath, output, { flag: "w" });
     console.log("Uploading native.po to smartling...");

@@ -59,7 +59,7 @@ export const configBuilder: (
     },
     // The entity language profiles that documents will be generated for.
     localization: {
-      locales: ["en"],
+      locales: ["ja"],
       primary: false,
     },
   },
