@@ -33,17 +33,17 @@ export function SchemaBuilder(
   //   ? FAQPage(data.document.c_faqSection.faqs)
   //   : null;
 
-  // const json = {
-  //   "@graph": [
-  //     localBusiness && localBusiness,
-  //     faqs && faqs,
-  //     breadcrumbs && {
-  //       "@context": "http://www.schema.org",
-  //       "@type": "BreadcrumbList",
-  //       itemListElement: breadcrumbs,
-  //     },
-  //   ],
-  // };
+  const json = {
+    "@graph": [
+      localBusiness && localBusiness,
+      // faqs && faqs,
+      breadcrumbs && {
+        "@context": "http://www.schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: breadcrumbs,
+      },
+    ],
+  };
 
   return SchemaWrapper(json);
 }
