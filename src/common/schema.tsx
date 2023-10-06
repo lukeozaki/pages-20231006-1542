@@ -29,9 +29,9 @@ export function SchemaBuilder(
       }))
     : null;
 
-  const faqs = data.document.c_faqSection?.faqs
-    ? FAQPage(data.document.c_faqSection.faqs)
-    : null;
+  // const faqs = data.document.c_faqSection?.faqs
+  //   ? FAQPage(data.document.c_faqSection.faqs)
+  //   : null;
 
   const json = {
     "@graph": [

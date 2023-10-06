@@ -131,10 +131,10 @@ export interface LocationProfile extends BaseProfile {
 
   // Add custom fields here
   // c_myStringField: string
-  readonly c_eventsSection?: {
-    readonly title?: string;
-    readonly events?: EventProfile[];
-  };
+  // readonly c_eventsSection?: {
+  //   readonly title?: string;
+  //   readonly events?: EventProfile[];
+  // };
   readonly c_bannerSection?: {
     readonly text?: string;
     readonly image?: Image;
@@ -170,10 +170,10 @@ export interface LocationProfile extends BaseProfile {
     readonly title?: string;
     readonly team?: FinancialProfessionalProfile[];
   };
-  readonly c_faqSection?: {
-    readonly title?: string;
-    readonly faqs?: FAQProfile[];
-  };
+  // readonly c_faqSection?: {
+  //   readonly title?: string;
+  //   readonly faqs?: FAQProfile[];
+  // };
   readonly c_nearbySection?: {
     readonly title?: string;
     readonly linkToLocator?: boolean;
